@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<div class="container">
+	<div>
+		<h1>Spring To KaKao</h1>
+		<p>회원 기능</p>
+		<p>
+ 			<a href="https://kauth.kakao.com/oauth/authorize?client_id=53c5f9b54ad9450a6cc811fdccf65417&redirect_uri=http://localhost:8080/login&response_type=code">카카오 회원 가입(로그인)</a>
+			<a href="/members/new">일반 회원 가입</a>
+			<a href="/members/kakao">카카오 회원 목록</a>
+			<a href="/members/public">일반 회원 목록</a>
+		</p>
+		<p>
+ 			<a href="https://kauth.kakao.com/oauth/logout?client_id=53c5f9b54ad9450a6cc811fdccf65417&logout_redirect_uri=http://localhost:8080/logout&response_type=code">카카오 로그아웃</a>
+		</p>
+	</div>
+</div> <!-- /container -->
+
+</body>
+</html>
